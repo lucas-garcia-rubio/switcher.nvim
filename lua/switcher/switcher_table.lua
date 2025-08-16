@@ -7,6 +7,8 @@ local switcher = {
   ["FALSE"] = "TRUE",
   ["=="] = "!=",
   ["!="] = "==",
+  ["==="] = "!==",
+  ["!=="] = "===",
 }
 
 return switcher
